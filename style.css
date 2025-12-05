@@ -1,0 +1,318 @@
+@font-face {
+    font-family: "Poppins";
+    src: url();
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url();
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url();
+    font-weight: 700;
+} 
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+    color: #002265;
+    
+}
+
+
+.header {
+font-size: 25px;
+margin: 35px auto 40px;
+padding: 23px 0;
+width: 1167px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header_sitename {
+    font-weight: 700;
+    letter-spacing: 20.5%;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+.header_sitename-decorated {
+    font-weight: 400;
+}
+
+.header_menu-list {
+    font-weight: 400;
+    letter-spacing: 5.5%;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 45px;
+    color: #212121;
+}
+
+.header_list-item:last-child:active {
+display: inline-block;
+width: 174px;
+height: 58px;
+background-color: #608AF5;
+border-radius: 10px;
+color: #fff;
+padding: 10px 18px;
+font-weight: 600;
+}
+
+
+
+.main {
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 118px;
+width: 1167px;
+}
+
+.welcome {
+display: flex;
+justify-content: space-between;
+gap: 85px;
+}
+
+.welcome_text {
+margin: 42px 0 67px;
+width: 580px;
+}
+
+.welcome_title {
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0.5%;
+
+    margin-bottom: 100px;
+}
+
+.welcome_desc {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    letter-spacing: 1.5%;
+    color: #082032;
+    
+}
+
+.welcome_image {
+    width: 500px;
+}
+
+
+.hobbi {
+    margin-top: 118px;
+    display: grid;
+    grid-template-areas: "title title title"
+                    "item item item";
+    row-gap: 60px;
+}
+.hobbi_title {
+font-size: 35px;
+letter-spacing: 0.055em;
+
+color: #14279B;
+
+grid-area: title;
+justify-self: center;
+}
+
+.hobbi_list {
+grid-area: item;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.hobbi_card {
+width: 340px;
+padding: 20px 24px 26px;
+text-align: center;
+border-radius: 13px;
+box-shadow: 0 0 10px grey;
+}
+
+.hobbi_image {
+width: 225px;
+}
+
+.hobbi_card-title {
+font-weight: 400;
+font-size: 25px;
+letter-spacing: 0.055em;
+
+color: #000000;
+}
+.hobbi_card-title-decorated {
+font-weight: 600;
+}
+
+.hobbi_card-text {
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 0.055em;
+
+color: #000000;
+}
+
+.hobbi_image ~ p {
+    margin-top: 15px;
+}
+
+
+.portfolio {
+    margin-top: 118px;
+    display: grid;
+    grid-template-areas: "title title title"
+                    "item item item";
+    row-gap: 60px;
+}
+
+.portfolio_title {
+    font-size: 35px;
+    letter-spacing: 18.5%;
+    text-align: center;
+    color: #002265;
+
+    grid-area: title;
+    
+}
+
+.portfolio_list {
+    grid-area: item;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.portfolio_card {
+width: 346px;
+height: 246px;
+padding: 20px 12px 7px 17px;
+border-radius: 13px;
+box-shadow: 0 0 10px grey;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.portfolio_card-element {
+width: 195px;
+height: 195px;
+border-radius: 50%;
+position: absolute;
+opacity: 0.25;
+z-index: -1;
+}
+
+.portfolio_card-title {
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+.second {
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    color: #4581F6;
+    padding: 0;
+}
+.second h3{
+font-size: 25px;
+}
+.second small {
+    font-size: 13px;
+    align-self: flex-end;
+    position: relative;
+    left: -10px;
+}
+
+.portfolio_card-name {
+font-size: 25px;
+letter-spacing: 0%;
+color: #6C63FF;
+
+}
+
+.portfolio_card-image {
+    width: 289px;
+    height: 164px;
+    align-self: flex-end;
+}
+
+.portfolio_card-logo {
+width: 50px;
+}
+
+.portfolio_card-logo3 {
+    width: 145px;
+    height: 46px;
+    }
+
+.violet {
+    background-color: #6C63FF;
+}
+.blue {
+background-color: #4DC2F1;
+}
+
+.grey {
+    background-color: #5F596E;
+}
+
+
+.contacts {
+    margin-top: 118px;
+    display: grid;
+    grid-template-areas: "title title title"
+                    "item item item";
+    row-gap: 60px;
+}
+
+.contacts-title {
+grid-area: title;
+
+font-weight: 600;
+font-size: 35px;
+
+letter-spacing: 0.055em;
+text-align: center;
+color: #14279B;
+
+
+}
+
+.contacts_list {
+grid-area: item;
+
+display: flex;
+justify-content: space-between;
+}
+
+
+.contacts_image {
+width: 166px;
+height: 160px;
+margin-bottom: 30px;
+}
+
+.contacts_text {
+font-weight: 400;
+font-size: 35px;
+letter-spacing: 0.055em;
+text-align: center;
+
+color: #3F3D56;
+}
